@@ -96,6 +96,7 @@ function initDBConnection() {
 initDBConnection();
 
 app.get('/', routes.index);
+console.warn('Changed the code to debug.>>>>');
 
 function createResponseData(id, name, value, attachments) {
 
